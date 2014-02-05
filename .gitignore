@@ -1,0 +1,10 @@
+# comments...
+# env is usually part of django_project_dir
+ 
+.DS_Store
+.hg
+.svn
+*.pyc
+env
+.vagrant
+
