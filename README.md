@@ -31,7 +31,7 @@ To follow these instructions you don't need to know anything about them, but you
 
 ####Grab the provisioning code
 
-    laptop$ git clone https://github.com/birkin/iip_provision.git ./iip_provision
+    laptop$ git clone https://github.com/brown-university-library/iip_provision.git ./iip_provision
 
 This creates a directory, 'iip_provision'.
 
