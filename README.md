@@ -67,7 +67,7 @@ That's it for the install.
 
 ####Activate the python virtual environment
 
-    vagrant$ source ./iip_project/env_iip/bin/activate
+    vagrant$ source ./env_iip/bin/activate
 
 Your prompt should now be [env-iip].
 
