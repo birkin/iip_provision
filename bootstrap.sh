@@ -72,8 +72,8 @@ git clone https://github.com/birkin/iip.git iip_project
 ## virtualenv work ##
 
 #Create a virtualenv and ACTIVATE it
-virtualenv -p python2.6 --prompt=[env_iip] /home/vagrant/iip_project/env_iip
-source /home/vagrant/iip_project/env_iip/bin/activate
+virtualenv -p python2.6 --prompt=[env_iip] /home/vagrant/env_iip
+source /home/vagrant/env_iip/bin/activate
 
 #install necessary python packages
 pip install -r /home/vagrant/iip_project/iip_config/requirements.txt
@@ -96,22 +96,15 @@ sudo chmod 777 /home/vagrant/iip_project/logs/iip_search_app.log
 #update the virtual environment's activate script
 #the bottom of the new script sources the project.sh and app.sh files
 # cp /resources/activate /home/vagrant/iip_project/env_iip/bin/activate
-echo " " >> /home/vagrant/iip_project/env_iip/bin/activate
-echo " " >> /home/vagrant/iip_project/env_iip/bin/activate
-echo "## load iip private settings into environment ##" >> /home/vagrant/iip_project/env_iip/bin/activate
-echo "source \"/resources/iip_private_settings.sh\"" >> /home/vagrant/iip_project/env_iip/bin/activate
+echo " " >> /home/vagrant/env_iip/bin/activate
+echo " " >> /home/vagrant/env_iip/bin/activate
+echo "## load iip private settings into environment ##" >> /home/vagrant/env_iip/bin/activate
+echo "source \"/resources/iip_private_settings.sh\"" >> /home/vagrant/env_iip/bin/activate
 
 #reactivate the virtual environment
-source /home/vagrant/iip_project/env_iip/bin/activate
+source /home/vagrant/env_iip/bin/activate
 
 ## end connect private settings to virtual environment ##
-
-
-## set up and populate database ##
-
-#TODO
-
-## end set up and populate database ##
 
 
 echo "---"
