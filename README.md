@@ -35,11 +35,9 @@ To follow these instructions you don't need to know anything about them, but you
 
 This creates a directory, 'iip_provision'.
 
-####Update the settings.
+####Check the settings.
 
-Add a file named 'iip_private_settings.sh' at iip_provision/resources/iip_private_settings.sh
-
-You'll see a sample file there that you can update and rename, or just add your own.
+Examine the file at `iip_provision/resources/iip_private_settings.sh` -- we'll work to try to have it run as-is, but once in a while you may need to fill in a setting.
 
 ####Create and provision the Vagrant Box
 
