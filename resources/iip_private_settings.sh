@@ -27,7 +27,8 @@ export IIP_STATIC_URL="/static/"  # assumes django 'runserver', not apache wsgi
 
 export IIP_SEARCH__LOG_PATH="/home/vagrant/iip_project/logs/iip_search_app.log"
 
-export IIP_SEARCH__SOLR_URL=""  # fill in manually for now; public url coming
+export IIP_SEARCH__SOLR_URL=""  # fill in manually for now; eventually will be public
+export IIP_SEARCH__BIBSOLR_URL=""  # fill in manually for now; eventually will be replaced by zotero call
 
 
 ## end
