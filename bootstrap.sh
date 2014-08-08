@@ -64,7 +64,7 @@ apt-get -y install libxml2-dev libxslt-dev
 find ./iip_project -mindepth 1 -delete
 
 #grab the project
-git clone https://github.com/birkin/iip.git iip_project
+git clone https://github.com/Brown-University-Library/iip.git iip_project
 
 ## end grab iip code ##
 
